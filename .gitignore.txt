@@ -1,2 +1,5 @@
 # Ignora los archivos relacionados a API keys
 vars.json
+
+# Ignora la carpeta node_modules
+node_modules

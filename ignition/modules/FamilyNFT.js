@@ -1,16 +1,21 @@
-const { buildModule } = require("@nomicfoundation/hardhat-ignition");
+// FamilyNFT.js
 
-module.exports = buildModule("Deploy FamilyNFT", async ({ deploy }) => {
-  const [deployer] = await ethers.getSigners();
+const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
-  console.log("Deploying contracts with the account:", deployer.address);
+module.exports = buildModule("Deploy FamilyNFT", async ({ deploy, execute, log }) => {
+    const [deployer] = await ethers.getSigners();
 
-  // Deploy the FamilyNFT contract
-  const familyNFT = await deploy("FamilyNFT", {
-    from: deployer.address,
-    args: [deployer.address], // Constructor arguments
-    log: true,
-  });
+    console.log("Deploying contracts with the account:", deployer.address);
 
-  console.log("FamilyNFT deployed to:", familyNFT.address);
+    // Desplegar el contrato FamilyNFT
+    const familyNFT = await deploy("FamilyNFT", {
+        from: deployer.address,
+        args: [deployer.address], // Argumentos del constructor
+        log: true,
+    });
+
+    console.log("FamilyNFT deployed to:", familyNFT.address);
+
+    // Interactuar con el contrato si es necesario
+    // Aquí puedes incluir más lógica si necesitas hacer algo después del despliegue
 });
