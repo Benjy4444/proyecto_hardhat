@@ -1,0 +1,14 @@
+{
+  "_format": "hh-vars-1",
+  "vars": {
+    "ALCHEMY_API_KEY": {
+      "value": "Ia2OgHGQ1fnGVWcf0HqaZJbiUizmDWo4"
+    },
+    "SEPOLIA_PRIVATE_KEY": {
+      "value": "c17c2bab4f46e97a4f95b04b7fb3aee785a5042828bce32d81c8f474cc473e83"
+    },
+    "ETHERSCAN_API_KEY": {
+      "value": "YAQN9PITR3WTUGJRT3ZXB295AJH9G9E4KD"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Token_flattened.sol": "console"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Token_flattened.sol": {
+			"keccak256": "0x57dd8764ad563e2be778901f2d99f28f45612f6e678d39c400447a6fa54b0421",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://27fad0a8318ba811a8aac883f9bca8edb1f7893d549676f788605ee6d5f31b90",
+				"dweb:/ipfs/QmVUc3bRaw52ZmbNdo3PsNaZGFU6dxbK5sw6zqy5KgRSnY"
+			]
+		}
+	},
+	"version": 1
+}
