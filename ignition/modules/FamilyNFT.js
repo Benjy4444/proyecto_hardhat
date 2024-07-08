@@ -1,4 +1,4 @@
-// FamilyNFT.js
+// ignition/modules/FamilyNFT.js
 
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
