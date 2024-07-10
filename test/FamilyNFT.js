@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
-describe("FamilyNFT", function () {
+describe("FamilyNFT contract", function () {
     let FamilyNFT;
     let familyNFT;
     let owner;
@@ -18,7 +18,7 @@ describe("FamilyNFT", function () {
     beforeEach(async function () {
         // Despliega un nuevo contrato antes de cada test
         familyNFT = await FamilyNFT.deploy(owner.address);
-        await familyNFT.deployed();
+        await familyNFT.waitForDeployment();
     });
 
     it("should allow owner to mint", async function () {

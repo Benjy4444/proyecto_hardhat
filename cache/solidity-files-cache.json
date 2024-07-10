@@ -1,83 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\contracts\\Token.sol": {
-      "lastModificationDate": 1719887904784,
-      "contentHash": "86fee4a46ce96a83d08bd95ef4eac0c2",
-      "sourceName": "contracts/Token.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Token"
-      ]
-    },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1719940104082,
-      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
-      "sourceName": "hardhat/console.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.4.22 <0.9.0"
-      ],
-      "artifacts": [
-        "console"
-      ]
-    },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\contracts\\FamilyNFT.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\contracts\\FamilyNFT.sol": {
       "lastModificationDate": 1719949820250,
       "contentHash": "093bacb43b3b475ae2c87ef8a7fd5bba",
       "sourceName": "contracts/FamilyNFT.sol",
@@ -118,46 +42,7 @@
         "FamilyNFT"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1719940477283,
-      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
-    },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
       "lastModificationDate": 1719940476809,
       "contentHash": "1e64e2ad597dc5b2dae11346502baad4",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
@@ -202,7 +87,46 @@
         "ERC721"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1719940477283,
+      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
       "lastModificationDate": 1719940476829,
       "contentHash": "50d770b698931f015309e77a750f54f6",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
@@ -244,7 +168,7 @@
         "ERC721URIStorage"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
       "lastModificationDate": 1719940476586,
       "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
@@ -281,46 +205,7 @@
         "Context"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
-      "lastModificationDate": 1719940476644,
-      "contentHash": "4aefc698f77ecbace7f401257dfe182d",
-      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "IERC1155Errors",
-        "IERC20Errors",
-        "IERC721Errors"
-      ]
-    },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
       "lastModificationDate": 1719940477315,
       "contentHash": "ba57ff4ddf1d9cae9d2009792795b7f6",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
@@ -360,7 +245,46 @@
         "Strings"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
+      "lastModificationDate": 1719940476644,
+      "contentHash": "4aefc698f77ecbace7f401257dfe182d",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC1155Errors",
+        "IERC20Errors",
+        "IERC721Errors"
+      ]
+    },
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
       "lastModificationDate": 1719940476695,
       "contentHash": "6a55c353946e471d9792965d06208295",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
@@ -399,83 +323,7 @@
         "ERC165"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
-      "lastModificationDate": 1719940476956,
-      "contentHash": "5df8fdb527e563085847cad29e3c5f2e",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "IERC721"
-      ]
-    },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
-      "lastModificationDate": 1719940476965,
-      "contentHash": "fc8a9841f4bdd6329c26a00d5e75f4b3",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "IERC721Receiver"
-      ]
-    },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
       "lastModificationDate": 1719940476962,
       "contentHash": "12c206f185cb951213799561fdcaa40d",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
@@ -514,10 +362,49 @@
         "IERC721Metadata"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
-      "lastModificationDate": 1719940477239,
-      "contentHash": "718fa8ba0ff269c92e364c1429d9de57",
-      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
+      "lastModificationDate": 1719940476956,
+      "contentHash": "5df8fdb527e563085847cad29e3c5f2e",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+      "lastModificationDate": 1719940476965,
+      "contentHash": "fc8a9841f4bdd6329c26a00d5e75f4b3",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -548,10 +435,10 @@
         "^0.8.20"
       ],
       "artifacts": [
-        "Math"
+        "IERC721Receiver"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
       "lastModificationDate": 1719940477311,
       "contentHash": "b6c6bdc7aaca4fe5b680760a72e09d3e",
       "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
@@ -588,7 +475,44 @@
         "SignedMath"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1719940477239,
+      "contentHash": "718fa8ba0ff269c92e364c1429d9de57",
+      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
       "lastModificationDate": 1719940476928,
       "contentHash": "de0163561b417b800d01749cbbe2147e",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
@@ -625,7 +549,44 @@
         "IERC165"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC4906.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
+      "lastModificationDate": 1719940476927,
+      "contentHash": "f808b485ee0cdc6768ee8385ae5f9a2a",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC4906.sol": {
       "lastModificationDate": 1719940476950,
       "contentHash": "7f130e0d70179d683e9b9df0dda38a51",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC4906.sol",
@@ -665,44 +626,7 @@
         "IERC4906"
       ]
     },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
-      "lastModificationDate": 1719940476927,
-      "contentHash": "f808b485ee0cdc6768ee8385ae5f9a2a",
-      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": []
-    },
-    "C:\\Users\\andre\\OneDrive\\Documentos\\family-nft-hardhat\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC721.sol": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC721.sol": {
       "lastModificationDate": 1719940476954,
       "contentHash": "d8d23fc2f55ed934d1a1b91c9afd8526",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC721.sol",
@@ -738,6 +662,82 @@
         "^0.8.20"
       ],
       "artifacts": []
+    },
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\contracts\\Token.sol": {
+      "lastModificationDate": 1719887904784,
+      "contentHash": "86fee4a46ce96a83d08bd95ef4eac0c2",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "C:\\Users\\andre\\OneDrive\\Documentos\\VSC_WS\\CursoEducatEth2\\trabajo_entregable_nft\\proyecto-hardhat\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1719940104082,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
     }
   }
 }

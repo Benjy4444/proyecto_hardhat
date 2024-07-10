@@ -9,6 +9,9 @@
     },
     "ETHERSCAN_API_KEY": {
       "value": "YAQN9PITR3WTUGJRT3ZXB295AJH9G9E4KD"
+    },
+    "NFT_OWNER": {
+      "value": "0x9078d38e512a68d6E6Cf26D413C02F88789Cc720"
     }
   }
 }
