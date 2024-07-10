@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "StringsInsufficientHexLength",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "String operations.",
+			"errors": {
+				"StringsInsufficientHexLength(uint256,uint256)": [
+					{
+						"details": "The `value` string doesn't fit in the specified `length`."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FamilyNFT_flattened.sol": "Strings"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FamilyNFT_flattened.sol": {
+			"keccak256": "0x9b426459c0bf4df2ac21ba37654caa8f2f98a1edaecbbf5440126fc6939220e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://faabdb4b231c51e1ecb66182fe8633a74a633bb5ff9524e7f6310d8295ce2a25",
+				"dweb:/ipfs/Qmd136Q7J1pZtsvYAhHyehWadvNe5DVZvfHCTkehSDaxEw"
+			]
+		}
+	},
+	"version": 1
+}
